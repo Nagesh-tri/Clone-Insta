@@ -1,0 +1,227 @@
+body, button, input, textarea, button, input, textarea{
+    color: rgb(73, 72, 72);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+.cont{
+    /* ._ab */
+    align-items: center;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    position: relative;
+    vertical-align: baseline;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    align-items: stretch;
+    flex-grow: 1;
+    justify-content: center;
+    margin-right: auto;
+    padding-left: 0;
+    margin-top: 32px;
+    box-sizing: border-box;
+    padding-bottom: 32px;
+    vertical-align: baseline;
+
+}
+
+.sec-left{
+    background-size: 468.32px 634.15px;
+    background-image: url('./bgMobile.png');
+    background-position: -46px 0;
+    /* width: fit-content; */
+    background-repeat: no-repeat;
+    height: 581.15px;
+    flex-basis: 380.32px
+
+}
+.sec-left>a>img{
+    background-color: white;
+}
+.sec-right{
+    /* color: rgb(var(--ig-primary-text)); */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+}
+.logo{
+    display: inline-block;
+}
+#logo{
+    background-image: url('./logo.png'); 
+    background-position: 0px 0px; 
+    background-size: 176px 186px; 
+    width: 174px; height: 50px; 
+    background-repeat: no-repeat; 
+    display: inline-block;
+}
+.form{
+    /* margin-top: 50px; */
+    margin-bottom: 10px;
+    max-width: 350px;
+    width: 100%;
+    font-size: 16px;
+}
+#loginform{
+    /* _ab3b */
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.bor{
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    background-color:rgb(250, 250, 250);
+    border-right-width: 1px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-left-style: solid;
+    border-bottom-color: rgb(219,219,219);
+    border-bottom-style: solid;
+    flex-direction: row;
+}
+.margin{
+    margin: 0 40px 6px;
+}
+.label{
+    border: 0;
+    display: flex;
+    flex: 1 0 0px;
+    font: inherit;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(115,115,115);
+    height: 36px;
+    margin: 0;
+    min-width: 0;
+    padding: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+.labelIn{
+    border: 0;
+    font: inherit;
+    height: 36px;
+    left: 8px;
+    line-height: 36px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    text-overflow: ellipsis;
+    transform-origin: left;
+    transition: transform ease-out .1s;
+    /* -webkit-user-select: none; */
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+.input{
+    /* font-size: 16    px; */
+    font-weight: normal;
+    background: rgb(250,250,250);
+    border: 0;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+    /* -webkit-appearance: none; */
+    text-align: left;
+}
+
+.login{
+    background-color: rgb(0, 149, 246);
+    opacity: 0.7;
+    margin-top: 8px;
+    pointer-events: none;
+    border-radius: 8px;
+    
+    
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 16px;
+    display: flex;
+    justify-content: center;
+    
+}
+.login>button{
+    color: white;
+}
+.fb-logo{
+    background-image: url('fb-all.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: -414px -259px;
+    height: 16px;
+    width: 16px;
+}
+.fb-login{
+    color: #385185;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.forget{
+    color: rgb(0,55,107);
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 12px!important;
+    text-align: center!important;
+}
+
+.signup>div{
+    margin: 15px;
+    text-align: center;
+}
+.signup>div>a>span{
+    color: rgb(0, 149, 246);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.last{
+    margin: 10px 20px 10px 20px;
+    padding: 0;
+    text-align: center;
+    vertical-align: baseline;
+}
+.last-1>span{
+    line-height: 18px;
+    font-weight: 400;
+    --base-line-clamp-line-height: 18px;
+}
+
+.img-p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
