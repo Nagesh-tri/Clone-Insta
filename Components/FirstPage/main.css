@@ -44,14 +44,19 @@ body, button, input, textarea, button, input, textarea{
     /* width: fit-content; */
     background-repeat: no-repeat;
     height: 581.15px;
-    flex-basis: 380.32px
+    flex-basis: 380.32px;
 
 }
 .sec-left>a>img{
-    background-color: white;
+    position: absolute;
+    /* background-color: white; */
+    width: 250px;
+    height: 538.84px;
+    margin-left: 112px;
+    margin-top: 27px;
 }
 .sec-right{
-    /* color: rgb(var(--ig-primary-text)); */
+    
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -136,7 +141,6 @@ body, button, input, textarea, button, input, textarea{
     text-overflow: ellipsis;
     transform-origin: left;
     transition: transform ease-out .1s;
-    /* -webkit-user-select: none; */
     vertical-align: baseline;
     white-space: nowrap;
 }
@@ -151,7 +155,6 @@ body, button, input, textarea, button, input, textarea{
     overflow: hidden;
     padding: 9px 0 7px 8px;
     text-overflow: ellipsis;
-    /* -webkit-appearance: none; */
     text-align: left;
 }
 

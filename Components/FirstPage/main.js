@@ -6,7 +6,7 @@ const main = () => {
     <div className='main'>
     <div className='sec-left mr-8 mb-4'>
         
-    {/* <a href="#"><img src="images/insta-ss.png" alt='instaPage'/> </a> */}
+    <a href="#"><img src="images/insta-ss.png" alt='instaPage'/> </a>
     </div>
     <div className='sec-right'>
         <div className='div-login cont'>
