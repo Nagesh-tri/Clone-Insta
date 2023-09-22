@@ -19,7 +19,7 @@ const main = () => {
                     <div className='overflow-y-visible mt-6'>
                         <div className='margin'>
                             <div className='phone bor'>
-                            <label className='label'><span className='labelIn '>Phone number, username, or email</span><input aria-label="Phone number, username, or email" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75" class="input" dir="" type="text" value="" name="username"/></label>
+                            <label className='label'><span className='labelIn '>Phone number, username, or email</span><input aria-label="Phone number, username, or email" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75" class="input" dir="" type="text" values="" name="username"></input></label>
                             </div>
 
                         </div>
