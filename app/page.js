@@ -1,12 +1,13 @@
 
 import React from 'react';
-import Main from '@/Components/FirstPage/main'
-import Footer from '@/Components/Footer';
+import Home from '@/app/home/page';
 
 const page = () => {
   return <>
-    <Main/>
-    {/* <Footer/> */}
+  <div className='max-w-screen-sm '>
+    <Home/>
+    
+  </div>
   </>
 }
 
