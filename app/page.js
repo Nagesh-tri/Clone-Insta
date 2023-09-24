@@ -1,12 +1,14 @@
 
 import React from 'react';
-import Main from '@/Components/FirstPage/main'
-import Footer from '@/Components/Footer';
+import Signup from '@/app/Signup/page';
+import FirstPage from '@/Components/FirstPage/main';
 
 const page = () => {
   return <>
-    <Main/>
-    {/* <Footer/> */}
+  <div className=' '>
+    <Signup/>
+    
+  </div>
   </>
 }
 
