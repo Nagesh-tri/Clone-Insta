@@ -20,6 +20,15 @@ body, button, input, textarea, button, input, textarea{
     position: relative;
     vertical-align: baseline;
 }
+.cont-b{
+    color: rgb(var(--ig-primary-text));
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+}
 .main{
     width: 100%;
     display: flex;
