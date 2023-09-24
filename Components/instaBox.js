@@ -6,7 +6,6 @@ const instaBox = () => {
   <div className="div-login insta-box">
     <Logo/>
   </div>
-  <FirstPage/>
   </>
 }
 

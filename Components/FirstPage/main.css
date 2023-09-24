@@ -209,22 +209,3 @@ body, button, input, textarea, button, input, textarea{
     font-size: 14px;
     line-height: 18px;
 }
-
-.last{
-    margin: 10px 20px 10px 20px;
-    padding: 0;
-    text-align: center;
-    vertical-align: baseline;
-}
-.last-1>span{
-    line-height: 18px;
-    font-weight: 400;
-    --base-line-clamp-line-height: 18px;
-}
-
-.img-p{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 10px 0 10px 0;
-}

@@ -1,11 +1,12 @@
 
 import React from 'react';
-import Home from '@/app/home/page';
+import Signup from '@/app/Signup/page';
+import FirstPage from '@/Components/FirstPage/main';
 
 const page = () => {
   return <>
-  <div className='max-w-screen-sm '>
-    <Home/>
+  <div className=' '>
+    <Signup/>
     
   </div>
   </>
