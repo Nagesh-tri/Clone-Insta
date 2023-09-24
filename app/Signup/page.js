@@ -14,7 +14,7 @@ const signup = () => {
             <SignupForm />
           </div>
         </div><div className='insta-box signup my-4'>
-          <div>have an account? <a><span>Sign In</span></a></div>
+          <div>have an account? <a href='/home'><span>Sign In</span></a></div>
 
         </div>
         <div>
