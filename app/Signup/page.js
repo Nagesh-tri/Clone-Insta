@@ -2,11 +2,12 @@ import React from 'react';
 import Logo from '@/Components/logo';
 import SignupForm from '@/Components/SignupForm';
 import Last from '@/Components/last';
+import Footer from '@/Components/Footer';
 
 const signup = () => {
   return <>
     <div className='w-full flex justify-center mb-11'>
-      <div className='signup-main'>
+      <div className='signup-main mt-3'>
         <div className="div-login insta-box">
           <Logo />
           <div>
@@ -23,6 +24,7 @@ const signup = () => {
       </div>
 
     </div>
+    <Footer/>
   </>
 }
 
