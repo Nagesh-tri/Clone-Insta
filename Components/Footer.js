@@ -1,19 +1,29 @@
-// import React from 'react';
+import React from 'react';
+let arr=["Meta", "About","Blog","jobs","Help","API","Privacy","Terms","Location","Instagram Lite","Threads","Contact Uploading & Non-Users" , "Meta Verified"];
 
-// const Footer = () => {
-//   let arr=["Meta", "About","Blog","jobs","Help","API","Privacy","Terms","Location","Instagram Lite","Threads","Contact Uploading & Non-Users" , "Meta Verified"];
-//   let aba=["meta"]
+
+const Footer = () => {
 //   function createTag(ele) {
 //     return `<div><a href="https://about.meta.com/" rel="nofollow noopener noreferrer" target="_blank"><span class="" dir="auto">${ele}</span></a></div>
 //     `;
 //   }
 
-//   let footerEle = aba.map(createTag);
-//   const element1 =footerEle.join( )
-//   console.log(typeof(element1));
-//   let thisElem=document.getElementsByTagName('footer');
-//   console.log(thisElem);
-//   return<><footer>Hiii footer here</footer></>
-// }
+  return <>
+  <footer className='flex flex-col shrink-0 px-4 items-stretch mb-12'>
+    <div className='flex flex-row mt-6 justify-items-center justify-center'>
+        {arr.map((e)=>{
+            return <>
+            
+            <div className='f-ele'><a><span>{e}</span></a></div>
+            </>
+        })}
+    </div>
+    <div className='flex flex-row my-3 justify-items-center justify-center'>
+    <div className='f-ele'><a><span>English </span></a></div>
+    <div className='f-ele'><a><span>© 2023 Instagram from Meta</span></a></div>
+    </div>
+  </footer>
+  </>
+}
 
-// export default Footer
+export default Footer

@@ -1,15 +1,23 @@
+
 "use client"
 import React, { useState } from 'react';
+import Footer from '@/Components/Footer'
 import './main.css'
 //okay going to do something crazy i mean trying this first time in react
 //need to change input values
 const main = () => {
-const [username,setUsername]=useState("")
-    return <>
-        <div className='main'>
-            <div className='sec-left mr-8 mb-4'>
 
-                <a href="#"><img src="images/insta-ss.png" alt='instaPage'/> </a>
+    const [username,setUsername]=useState("")
+  return <>
+    <div className='main mt-8'>
+    <div className='sec-left mr-8 mb-4'>
+        
+    <a href="#"><img src="images/insta-ss.png" alt='instaPage'/> </a>
+    </div>
+    <div className='sec-right cont-b'>
+        <div className='div-login cont'>
+            <div role='button' className='logo mt-9 mb-3'>
+            <i role="img" id='logo'></i>
             </div>
             <div className='sec-right'>
                 <div className='div-login cont'>
@@ -73,7 +81,11 @@ const [username,setUsername]=useState("")
                 <Last/>
             </div>
         </div>
-    </>
+
+    </div>
+    </div>
+    <Footer/>   
+  </>
 }
 
 export default main
