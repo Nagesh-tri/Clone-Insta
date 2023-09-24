@@ -68,7 +68,7 @@ const main = () => {
             <a className='forget'><span> forget password?</span></a>
         </div>
         <div className='cont signup'>
-            <div>Don't have an account? <a><span>Sign up</span></a></div>
+            <div>Don't have an account? <a href='/Signup'><span>Sign up</span></a></div>
             
         </div>
         <Last/>
