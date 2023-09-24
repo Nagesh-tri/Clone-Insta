@@ -1,9 +1,10 @@
 import React from 'react';
-import InstaBox from '@/Components/instaBox'
-
+import FirstPage from '@/Components/FirstPage/main'
+import Footer from '@/Components/Footer';
 const home = () => {
   return <>
-  <InstaBox/>
+    <FirstPage/>
+    <Footer/>
   </>
 }
 
