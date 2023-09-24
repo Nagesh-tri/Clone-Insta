@@ -68,7 +68,7 @@ body, button, input, textarea, button, input, textarea{
     display: inline-block;
 }
 #logo{
-    /* background-image: url('./logo.png');  */
+    background-image: url('./logo.png');
     background-position: 0px 0px; 
     background-size: 176px 186px; 
     width: 174px; height: 50px; 

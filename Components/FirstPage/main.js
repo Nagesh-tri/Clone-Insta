@@ -1,9 +1,10 @@
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
 import './main.css'
-import FbLogBut from '../FbLogBut';
-import Last from '@/Components/last';
-
+//okay going to do something crazy i mean trying this first time in react
+//need to change input values
 const main = () => {
+const [username,setUsername]=useState("")
     return <>
         <div className='main'>
             <div className='sec-left mr-8 mb-4'>
@@ -21,12 +22,19 @@ const main = () => {
                             <div className='overflow-y-visible mt-6'>
                                 <div className='margin'>
                                     <div className='phone bor'>
-                                        <label className='label'><span className='labelIn '>Phone number, username, or email</span><input aria-label="Phone number, username, or email" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75" class="input" dir="" type="text" value="" name="username" /></label>
+                                        <label className='label'><span className='labelIn '>Phone number, username, or email</span>
+                            <input aria-label="Phone number, username, or email" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75" class="input" dir="" type="text" value={username} name="username" onChange={(e)=>{
+                                // console.log(e.target.value);
+                                setUsername(e.target.value)
+                                }}>
+
+                            </input>
+                            </label>
                                     </div>
 
                                 </div>
                                 <div className='margin'>
-                                    <div className='bor '><label className='label'><span className='labelIn'>Password</span><input aria-label="Password" aria-required="true" autocapitalize="off" autocorrect="off" class="input" type="password" value="" name="password" /></label></div>
+                                    <div className='bor '><label className='label'><span className='labelIn'>Password</span><input aria-label="Password" aria-required="true" autocapitalize="off" autocorrect="off" class="input" type="password" value="" name="password"/></label></div>
 
                                 </div>
                                 <div className='login margin'>

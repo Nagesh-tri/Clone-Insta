@@ -6,7 +6,7 @@ import FirstPage from '@/Components/FirstPage/main';
 const page = () => {
   return <>
   <div className=' '>
-    <Signup/>
+    <FirstPage/>
     
   </div>
   </>
