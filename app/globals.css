@@ -140,7 +140,7 @@ html,body{
   flex-direction: row;
   justify-content: center;
   margin: 10px 0 10px 0;
-
+}
 a,a:visited{
   color: rgb(0,55,107);
   text-decoration: none;
