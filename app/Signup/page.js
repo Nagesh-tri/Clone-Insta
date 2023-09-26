@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '@/Components/logo';
-import SigninForm from '@/Components/SignInForm';
+import SignupForm from '@/Components/SignupForm';
 import Last from '@/Components/last';
 import Footer from '@/Components/Footer';
 
@@ -11,7 +11,7 @@ const signup = () => {
         <div className="div-login insta-box">
           <Logo />
           <div>
-            <SigninForm />
+            <SignupForm />
           </div>
         </div><div className='insta-box signup my-4'>
           <div>have an account? <a href='/SignIn'><span>Sign In</span></a></div>

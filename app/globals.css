@@ -40,12 +40,12 @@ html,body{
 
 
 /* signup Page */
-.signup-main{
+.signup-main , .signin-form{
   max-width: 350px;
   min-width: 350px;
 }
 
-.signup-form{
+.signup-form {
   display: flex;
   flex-direction: column;
 }
